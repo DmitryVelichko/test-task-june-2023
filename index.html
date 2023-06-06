@@ -44,9 +44,9 @@
     </header>
     
         <main class="content">
-            <section class="main-screen" >
+            <section class="main-screen" aria-label="Главный экран">
                 <div class="main-screen__intro">
-               
+                    <div class="canvas-wrapper canvas-wrapper_header"><canvas class="canvas"></canvas></div>
                     <div class="main-screen__intro-wrapper">
                         <h1 class="main-screen__title">Агентство территориального брендинга</h1><svg class="main-screen__logo" viewBox="0 0 103 24" fill="none" xmlns="http://www.w3.org/2000/svg">
        
@@ -74,7 +74,266 @@
     class="ticker__icon"></i></span></div>
             </div>
 
-      
+            <section class="services">
+                <h2 class="text text_large services__title">Услуги</h2>
+                <div class="services__controls">
+                    <button class="tab tab_type_business tab_active" type="button">Для&nbsp;бизнеса <span class="tab__counter">6</span></button>
+                    <button class="tab tab_type_territory" type="button">Для&nbsp;территории <span
+            class="tab__counter">6</span></button>
+                </div>
+                <ul class="services__main-list services__animated-list services__animated-list_type_business">
+                    <li class="services__main-list-item">
+                       
+                            <div class="service-main-card__title-wrapper">
+                                <h3 class="service-main-card__title">Исследования и анализ</h3>
+                                <div class="service-main-card__card-icon" style="
+           
+        "></div>
+                            </div>
+                            <p class="service-main-card__subtitle">Хорошее начало.</p>
+                            <p class="service-main-card__description">Комплексное погружение в контекст бизнеса, формирование цели и определение ключевых задач проекта</p>
+                            <ul class="service-main-card__tag-list">
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Маркетинговое исследование</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Анализ бизнес-модели</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Коммуникационный аудит</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Анализ рынка и конкурентов</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Анализ стейкхолдеров</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Анализ медиаполя и имиджа</p>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="services__main-list-item">
+                        <a href="/services#business-brending-i-ajdentika" class="service-main-card">
+                            <div class="service-main-card__title-wrapper">
+                                <h3 class="service-main-card__title">Брендинг и айдентика</h3>
+                                <div class="service-main-card__card-icon" style="
+        
+        "></div>
+                            </div>
+                            <p class="service-main-card__subtitle">Единственно верный ход.</p>
+                            <p class="service-main-card__description">Когда нужно отразить уникальный характер компании, ее ценности и преимущества - все в запоминающихся образах для коммуникации с аудиторией</p>
+                            <ul class="service-main-card__tag-list">
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Позиционирование</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Характер и ценности бренда</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Нейминг / слоган</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Логотип и фирменный стиль</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Брендбук</p>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="services__main-list-item">
+                        <a href="/services#business-strategiya-i-prodvizhenie" class="service-main-card">
+                            <div class="service-main-card__title-wrapper">
+                                <h3 class="service-main-card__title">Стратегия и продвижение</h3>
+                                <div class="service-main-card__card-icon" style="
+            mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/arrow.svg');
+        -webkit-mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/arrow.svg')
+        "></div>
+                            </div>
+                            <p class="service-main-card__subtitle">Правильное решение для роста.</p>
+                            <p class="service-main-card__description">Когда пора заявить о себе и продумать все до мелочей: от стратегической цели до креативных постов в социальных сетях и публикаций в СМИ</p>
+                            <ul class="service-main-card__tag-list">
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Медиаплан</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Контент план</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Постановка цели</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Коммуникационная стратегия</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Креативная концепция</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Копирайтинг</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Дизайн</p>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="services__additional-list services__animated-list services__animated-list_type_business">
+                    <li class="services__additional-list-item">
+                        <a href="/services#business-razrabotka-sajta" class="service-additional-card service-additional-card_hover">
+                            <h3 class="service-additional-card__title">Разработка сайта / приложения</h3>
+                            <p class="service-additional-card__description">Когда пришла пора действовать, но не хватает самого главного</p>
+                        </a>
+                    </li>
+                    <li class="services__additional-list-item">
+                        <a href="/services#business-obuchenie" class="service-additional-card service-additional-card_hover">
+                            <h3 class="service-additional-card__title">Обучение</h3>
+                            <p class="service-additional-card__description">Когда ваша цель - лично во всем разобраться и стать экспертом</p>
+                        </a>
+                    </li>
+                    <li class="services__additional-list-item">
+                        <a href="/services#business-konsultacii" class="service-additional-card service-additional-card_hover">
+                            <h3 class="service-additional-card__title">Консультации</h3>
+                            <p class="service-additional-card__description">Когда хочется сделать своими руками, но остались важные вопросы</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="services__main-list services__animated-list services__animated-list_type_territory services__animated-list_hidden">
+                    <li class="services__main-list-item">
+                        <a href="/services#territory-issledovaniya-i-analiz-2" class="service-main-card">
+                            <div class="service-main-card__title-wrapper">
+                                <h3 class="service-main-card__title">Исследования и анализ</h3>
+                                <div class="service-main-card__card-icon" style="
+            mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/globe.svg');
+        -webkit-mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/globe.svg')
+        "></div>
+                            </div>
+                            <p class="service-main-card__subtitle"></p>
+                            <p class="service-main-card__description">Первый шаг к пониманию места. Мы последовательно анализируем все возможные факторы, влияющие на коммуникацию и развитие территории, формируем гипотезы и стратегические задачи</p>
+                            <ul class="service-main-card__tag-list">
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Культурологический анализ</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Анализ медиасреды и имиджа</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Анализ точек притяжения</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Анализ стейкхолдеров</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Коммуникационный аудит</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Социологическое исследование</p>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="services__main-list-item">
+                        <a href="/services#territory-brending-i-ajdentika-2" class="service-main-card">
+                            <div class="service-main-card__title-wrapper">
+                                <h3 class="service-main-card__title">Брендинг и айдентика</h3>
+                                <div class="service-main-card__card-icon" style="
+            mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/star.svg');
+        -webkit-mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/star.svg')
+        "></div>
+                            </div>
+                            <p class="service-main-card__subtitle"></p>
+                            <p class="service-main-card__description">Идеальное решение, когда необходим новый взгляд на территорию, выраженный в значимых для аудитории символах и ярких коммуникационных сообщениях</p>
+                            <ul class="service-main-card__tag-list">
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Позиционирование</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Характер и ценности бренда</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Легенда места</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Нейминг / слоган</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Логотип и фирменный стиль</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Брендбук</p>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="services__main-list-item">
+                        <a href="/services#territory-strategiya-i-prodvizhenie-2" class="service-main-card">
+                            <div class="service-main-card__title-wrapper">
+                                <h3 class="service-main-card__title">Стратегия и продвижение</h3>
+                                <div class="service-main-card__card-icon" style="
+            mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/arrow.svg');
+        -webkit-mask-image: url('https://brandmesta.ru/themes/mesto/assets/icons/arrow.svg')
+        "></div>
+                            </div>
+                            <p class="service-main-card__subtitle"></p>
+                            <p class="service-main-card__description">Серьезный подход к развитию территории с проработкой от создания модели управления брендом до креативных постов в социальных сетях и публикациях в СМИ</p>
+                            <ul class="service-main-card__tag-list">
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Модель управления брендом</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Постановка целей</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Коммуникационная стратегия</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Креативная концепция</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Копирайтинг</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Дизайн</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Медиаплан</p>
+                                </li>
+                                <li class="tag-item service-main-card__tag-list-item">
+                                    <p class="tag-item__text service-main-card__tag">Контент-план</p>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="services__additional-list services__animated-list services__animated-list_type_territory services__animated-list_hidden">
+                    <li class="services__additional-list-item">
+                        <a href="/services#territory-razrabotka-sajtaprilozheniya" class="service-additional-card service-additional-card_hover">
+                            <h3 class="service-additional-card__title">Разработка сайта/приложения</h3>
+                            <p class="service-additional-card__description">Когда пришла пора действовать, но не хватает самого главного</p>
+                        </a>
+                    </li>
+                    <li class="services__additional-list-item">
+                        <a href="/services#territory-obuchenie-2" class="service-additional-card service-additional-card_hover">
+                            <h3 class="service-additional-card__title">Обучение</h3>
+                            <p class="service-additional-card__description">Когда ваша цель - лично во всем разобраться и стать экспертом</p>
+                        </a>
+                    </li>
+                    <li class="services__additional-list-item">
+                        <a href="/services#territory-konsultacii-2" class="service-additional-card service-additional-card_hover">
+                            <h3 class="service-additional-card__title">Консультации</h3>
+                            <p class="service-additional-card__description">Когда хочется сделать своими руками, но остались важные вопросы</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="/services" class="button button_size_big button_type_link services__link" type="button">
+                    <div class="button__wrapper"><span class="button__text">Все услуги</span> <span class="button__text-copy">Все услуги</span></div>
+                </a>
+                <button class="gradient-button services__popup-btn" type="button"><span
+        class="gradient-button__text">Обсудить задачу</span></button>
+            </section>
 
           
         </main>
